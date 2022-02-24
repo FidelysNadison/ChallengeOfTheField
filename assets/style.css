@@ -1,0 +1,113 @@
+/**************FOR MOBILE***************/
+@media only screen and (max-width: 640px) {
+  body {
+    position: relative;
+    width: 428px;
+    height: 6642px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #E3EEF8;
+  }
+  .Hero {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  /******LOGO SUPERPOSE******/
+  #logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    position: absolute;
+    left: 35px;
+    right: 89.6%;
+    top: 10px;
+    bottom: 99.74%;
+  }
+  .shades {
+    position: absolute;
+    font-family: arial;
+    height: 14px;
+    left: 14px;
+    font-size: 20px;
+    line-height: 14px;
+    letter-spacing: -1px;
+    color: #1F1F1F;
+  }
+  /*****TROIS RECTANGLE DU COIN****/
+  #Hamburger {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    position: absolute;
+    padding-top: 10px;
+    left: 375px;
+  }
+  img.rect1 {
+    border: 1px solid #258AFF;
+    background-color: #258AFF;
+    width: 25px;
+    height: 2px;
+    margin-bottom: 3px;
+  }
+  .rect2 {
+    border: 1px solid #258AFF;
+    background-color: #258AFF;
+    width: 25px;
+    height: 2px;
+    margin-bottom: 3px;
+  }
+  .rect3 {
+    border: 1px solid #258AFF;
+    background-color: #258AFF;
+    width: 25px;
+    height: 2px;
+  }
+  /*********Paragraphe et Titre************/
+  #paraAndTitle {
+    padding-top: 75px;
+    text-align: center;
+  }
+  #paraAndTitle p {
+    font-family: Karla;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 12px;
+    text-transform: uppercase;
+    color: #666666;
+  }
+  h1 {
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+  input {
+    Width: 133,14px;
+    Height: 28px;
+    Radius: 5px;
+  }
+  button {
+    Width: 133,14px;
+    Height: 28px;
+    Radius: 5px;
+    background: #FC593B;
+    border-radius: 5px;
+    color: white;
+  }
+}
+/*# sourceMappingURL=style.css.map */
