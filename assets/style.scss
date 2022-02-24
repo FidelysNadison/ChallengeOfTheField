@@ -1,12 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&family=Rubik&display=swap');
 /**************FOR MOBILE***************/
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 440px) {
     body{
         position: relative;
-        width: 428px;
-        height: 6642px;
         margin-left: auto;
         margin-right: auto;
-        background:  #E3EEF8;;
+        background:  #E3EEF8;
+        
     }
     .Hero{
         display: flex;
@@ -19,11 +19,14 @@
         flex-direction: column;
         position: absolute;
         left: 35px;
-        right: 89.6%;
         top: 10px;
         bottom: 99.74%;
     }
+    .fa-solid {
+        color: #258AFF;
+    }
     .shades {
+        padding-left: 5px;
         position: absolute;
         font-family: arial;
         height: 14px;
@@ -33,41 +36,48 @@
         letter-spacing: -1px;
         color: #1F1F1F;
     }
-    /*****TROIS RECTANGLE DU COIN****/
+    /*****HAMBURGER****/
     #Hamburger{
+        position: absolute;
         display: flex;
         flex-direction: column;
-        position: absolute;
-        padding-top: 10px;
-        left: 375px;
-    }
-    img.rect1{
-        border: 1px solid #258AFF;
-        background-color: #258AFF;
+        right: 20px;
+        padding-top: 6px;
+        display: inline-block;
+        cursor: pointer;
+        right: 35px;
+    }      
+      .bar1, .bar2, .bar3 {
         width: 25px;
-        height: 2px;
-        margin-bottom: 3px;
-    }
-    .rect2{
-        border: 1px solid #258AFF;
+        height: 3px;
         background-color: #258AFF;
-        width: 25px;
-        height: 2px;
-        margin-bottom: 3px;
-    }
-    .rect3{
-        border: 1px solid #258AFF;
-        background-color: #258AFF;
-        width: 25px;
-        height: 2px;
-    }
+        margin: 3px ;
+        transition: 0.4s;
+      }
+      
+      /* Rotate first bar */
+      .change .bar1 {
+        -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+        transform: rotate(-45deg) translate(-9px, 6px) ;
+      }
+      
+      /* Fade out the second bar */
+      .change .bar2 {
+        opacity: 0;
+      }
+      
+      /* Rotate last bar */
+      .change .bar3 {
+        -webkit-transform: rotate(45deg) translate(-8px, -8px) ;  transform: rotate(45deg) translate(-8px, -8px) ;
+        }
     /*********Paragraphe et Titre************/
     #paraAndTitle{
         padding-top: 75px;
         text-align: center;
+        
     }
     #paraAndTitle p {
-        font-family: Karla;
+        font-family: 'Karla';
         font-style: normal;
         font-weight: bold;
         font-size: 10px;
@@ -82,14 +92,31 @@
     input{
         Width: 133,14px;
         Height: 28px;
-        Radius: 5px;
+        background: #FFFFFF;
+        border-radius: 3px;
     }
     button{
         Width: 133,14px;
-        Height: 28px;
-        Radius: 5px;
+        Height: 35px;
         background: #FC593B;
         border-radius: 5px;
         color: white;
     }
+    /*********FEATURES*********/
+    .Features{
+        left: 58px;
+        top: 421px;
+    }
+    .Features p{
+        text-align: center;
+        color: #666666;
+    }
+    /*********CONTENT*************/
+    .content1{
+        background-color: #258AFF;
+    }
+    .content2{
+        text-align: center;
+    }
 }
+
