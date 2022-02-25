@@ -104,18 +104,53 @@
   }
   /*********FEATURES*********/
   .Features h2 {
-    margin-left: 20px;
+    margin-left: 30px;
   }
   .Features p {
     text-align: center;
     color: #666666;
   }
-  /*********CONTENT*************/
-  .content1 {
-    background-color: #258AFF;
+  /*********CONTENT1*************/
+  #content1 {
+    color: #FFFFFF;
   }
-  .content2 {
+  .phone {
+    position: relative;
+    z-index: 2;
+  }
+  .reste {
+    position: relative;
+    background-color: #258AFF;
+    z-index: 1;
+    height: 630px;
+    bottom: 22rem;
+  }
+  .reste h3 {
+    text-align: left;
+    margin-left: 30px;
+    padding-top: 300px;
+  }
+  .reste h2 {
+    margin-left: 30px;
+  }
+  .reste p {
+    margin-left: 30px;
+  }
+  .reste button {
+    margin-left: 30px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    color: #258AFF;
+    width: 181px;
+    height: 30px;
+  }
+  /***********CONTENT2**************/
+  #content2 {
     text-align: center;
+  }
+  #content2 img {
+    background: #258AFF;
+    border: solid 4px #258AFF;
   }
 }
 /*# sourceMappingURL=style.css.map */
