@@ -54,22 +54,6 @@
         margin: 3px ;
         transition: 0.4s;
       }
-      
-      /* Rotate first bar */
-      .change .bar1 {
-        -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
-        transform: rotate(-45deg) translate(-9px, 6px) ;
-      }
-      
-      /* Fade out the second bar */
-      .change .bar2 {
-        opacity: 0;
-      }
-      
-      /* Rotate last bar */
-      .change .bar3 {
-        -webkit-transform: rotate(45deg) translate(-8px, -8px) ;  transform: rotate(45deg) translate(-8px, -8px) ;
-        }
     /*********Paragraphe et Titre************/
     #paraAndTitle{
         padding-top: 75px;
@@ -103,9 +87,8 @@
         color: white;
     }
     /*********FEATURES*********/
-    .Features{
-        left: 58px;
-        top: 421px;
+    .Features h2{
+        margin-left: 20px;
     }
     .Features p{
         text-align: center;
